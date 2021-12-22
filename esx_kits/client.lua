@@ -86,7 +86,3 @@ AddEventHandler('esx_clean:usatoKitRiparazione', function()
     ESX.ShowNotification(_U('vicino_veicolo'))
   end
 end)
-
-RegisterCommand('sporca', function()
-  SetVehicleDirtLevel(GetVehiclePedIsIn(PlayerPedId()), 5.0)
-end)
